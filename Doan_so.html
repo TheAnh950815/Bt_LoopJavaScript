@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doan_so</title>
+</head>
+<body>
+<button onclick="doo()">đánh đi</button>
+<script>
+    function doo() {
+        for(;;)
+    {
+        let b = parseInt(prompt('nhập số'));
+        let x = Math.floor(Math.random() * 100);
+        console.log(x)
+        if (x == b) {
+            document.write(x + 'You win');
+            break;
+        }
+    }
+    }
+</script>
+
+</body>
+</html>
+<!--<input id="nhap" type="button" onclick="Doan()" value="nhập số">-->
+<!--<input id="text" type="text" width="100px">-->
+<!--<p id="demo"></p>-->
+<!--</body>-->
+<!--</html>-->
+<!--<script>-->
+<!--    function Doan() {-->
+<!--        let a = parseInt(document.getElementById("text").innerHTML);-->
+<!--        let i = parseInt(Math.floor((Math.random() * 100) + 1));-->
+<!--         b = parseInt(document.getElementById("nhap").innerHTML);-->
+<!--        while (a>b || a<b) {-->
+<!--            if (a < b) {-->
+<!--                document.write(b + 'Bạn thua' + 'nhỏ quá')-->
+<!--            } else {-->
+<!--                document.write(b + 'Bạn thua' + 'nhớn quá')-->
+<!--            }-->
+<!--        }-->
+
+<!--    }-->
+<!--
+</script>-->

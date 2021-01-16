@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button type="button" onclick="testLoop()">Click here</button>
+<p id="demo1"></p>
+<script>
+    function testLoop() {
+        let num = prompt("nhập số,'")
+        let count = 0;
+        for (let j = 2; count < num; j++) {
+            let check = true;
+            for (let i = 2; i < j - 1; i++) {
+                if (j % i == 0) {
+                    check = false;
+                    break;
+                }
+            }
+            if (check) {
+                document.write(j + "&nbsp") ;
+                count++;
+            }
+        }
+    }
+</script>
+</body>
+</html>

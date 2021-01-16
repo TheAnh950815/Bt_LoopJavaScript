@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+/*    let numb = parseInt(prompt('Nhập',''))
+    let a= numb - -1
+    let i;
+    let fib = [];
+    fib[0] = 0;
+    fib[1] = 1;
+    for (i = 2; i <= a; i++) {
+        fib[i] = fib[i - 2] + fib[i - 1];
+        document.write(fib[i] + "<br>");
+    }*/
+let numb = parseInt(prompt('Nhập vào số',''))
+let a =1;
+let b =1;
+let c =0;
+let count=0
+while (count<=numb){
+    a=b;
+    b=c;
+    c=b+a;
+    document.write(c + '<br>');
+    a++;
+    count++;
+}
+</script>

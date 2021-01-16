@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multipphication</title>
+</head>
+<body>
+<script>
+    let mul;
+    mul = "<table border='1' width='500' cellPadding='0' cellSpacing='3'>"
+    for (i=1;i<10;i++) {
+        mul = mul + "<tr>";
+        for (j = 2; j <10 ; j++) {
+            mul = mul + "<td>"+ i+'x'+j+'='+j*i + "</td>";
+
+        }
+        mul = mul + "</tr>"
+    }
+        mul = mul+"</table>";
+    document.write(mul);
+</script>
+</body>
+</html>

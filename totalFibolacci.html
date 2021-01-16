@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Total_Fibolacci</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let numb = parseInt(prompt('Nhập vào số', ''))
+    let a = 1;
+    let b = 1;
+    let c = 0;
+    let count = 0
+    let s = 0
+    while (count < numb) {
+        a = b;
+        b = c;
+        c = b + a;
+        s+= c;
+        console.log(c)
+        count++;
+        a++;
+    }
+    document.write(s)
+</script>
